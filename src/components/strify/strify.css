@@ -1,0 +1,50 @@
+.box {
+  background: url("https://cdn.xiongmaolaoshi.com/panda/website_pc/comn/strify-bg.png") no-repeat;
+  background-size: 19.2rem 7.35rem;
+  width: 100%;
+  height: 7.35rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 0.93rem;
+  padding-bottom: 0.81rem;
+}
+
+.strify-title {
+  background: url("https://cdn.xiongmaolaoshi.com/panda/website_pc/comn/strify-title-bg.png") no-repeat;
+  background-size: 6.07rem 0.6rem;
+  width: 6.07rem;
+  height: 0.6rem;
+  font-size: 0.4rem;
+  line-height: 0.6rem;
+  font-weight: 500;
+  color: rgba(51, 51, 51, 1);
+  text-align: center;
+  margin: 0 auto;
+  letter-spacing: 0.02rem;
+}
+
+.video-box {
+  position: relative;
+  width: 7.8rem;
+  height: 4.38rem;
+  border-radius:0.2rem;
+  overflow: hidden;
+  margin-top: 0.8rem;
+}
+
+.strify-video {
+  width: 7.8rem;
+  height: 4.38rem;
+}
+
+.strify-video-play {
+  position: absolute;
+  height: 0.9rem;
+  width: 0.9rem;
+  top: 50%;
+  left: 50%;
+  margin-top: -0.45rem;
+  margin-left: -0.45rem;
+  z-index: 10;
+}

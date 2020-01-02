@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>熊猫教写字-专注5-12岁儿童写字辅导</title>
+  <meta name="keywords" content="熊猫教写字,熊猫老师教写字,熊猫老师,在线写字课,书法在线教学,小学作业辅导,写字辅导,儿童在线书法课,一年级写字视频教程,写字课程视频教程">
+  <meta name="description"
+    content="熊猫教写字是一家专注5-12岁儿童线上写字辅导的教学机构,著名书法家在线一对一点评小学同步生字,独创3步练字法每天15分钟让孩子爱上写字,目前已有60万+名学生跟熊猫老师学写字">
+  <script>
+    (function (doc, win) {
+      var docEl = doc.documentElement,
+        resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+        recalc = function () {
+          var clientWidth = docEl.clientWidth;
+          if (!clientWidth) return;
+          console.log(clientWidth)
+          if (isPC()) {
+            if (clientWidth >= 1850) {
+              docEl.style.fontSize = '100px';
+            } else if (clientWidth < 1200) {
+              docEl.style.fontSize = '65px';
+            } else {
+              docEl.style.fontSize = 100 * (clientWidth / 1920) + 'px';
+            }
+          } else {
+            docEl.style.fontSize = clientWidth / 10 + 'px'
+          }
+        };
+
+      if (!doc.addEventListener) return;
+      win.addEventListener(resizeEvt, recalc, false);
+      doc.addEventListener('DOMContentLoaded', recalc, false);
+    })(document, window);
+
+    function isPC () {
+      var userAgentInfo = navigator.userAgent.toLowerCase()
+      var Agents = ['android', 'iphone', 'symbianOS', 'windows phone', 'ipad', 'ipod']
+      var flag = true
+      for (var v = 0; v < Agents.length; v++) {
+        if (userAgentInfo.indexOf(Agents[v]) > 0) {
+          flag = false
+          break
+        }
+      }
+      return flag
+    }
+
+  </script>
+
+</head>
+
+<body>
+  <div id="app"></div>
+  <!-- built files will be auto injected -->
+</body>
+
+</html>
