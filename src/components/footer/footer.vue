@@ -19,7 +19,7 @@
       </div>
     </div>
     <p class="icp">
-      上海畔哒教育科技有限公司 <a href="https://218.242.124.22:8082/businessCheck/verifKey.do?showType=extShow&serial=9031000020190402150744000004517655-SAIC_SHOW_310000-4028e4cb6bdf3215016bec103bd10ed5487&signData=MEQCIGxURp6kotmVuFDSbsBqGCvKDRujjeT18xEV5vQDWSvPAiBmUBLX6NA4S5quwxUMcoh0uTjZj7UVOK52KnfS0Qe6qQ==" style="color:rgba(186, 186, 186, 1)">&nbsp;沪ICP备18029528号&nbsp;<img alt="在线写字辅导"class="license-img" src="https://cdn.xiongmaolaoshi.com/panda/website_pc/icon/license.png" /></a> 
+      上海畔哒教育科技有限公司 <a href="http://beian.miit.gov.cn" style="color:rgba(186, 186, 186, 1)">&nbsp;沪ICP备18029528号&nbsp;<img alt="在线写字辅导"class="license-img" src="https://cdn.xiongmaolaoshi.com/panda/website_pc/icon/license.png" /></a>
     </p>
   </div>
 </template>

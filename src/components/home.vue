@@ -158,7 +158,10 @@
       <div class="text-3">周一至周日9:00-22:00</div>
       <div class="line"></div>
       <div class="text-4">上海市杨浦区长阳创谷C4区A016室  上海畔哒教育科技有限公司</div>
-      <div class="text-4">沪ICP备18029528号</div>
+      <a href="http://beian.miit.gov.cn">
+        <div class="text-4">沪ICP备18029528号</div>
+      </a>
+
     </div>
     <div class="fixed" v-show="modalShow">
       <div class="bottoom-box">
